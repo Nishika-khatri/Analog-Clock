@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    background-image: url('../Images/background1.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+    width:20rem;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.5rem;
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clock-face{
+    padding: 1rem;
+}
+.hand{
+    position: absolute;
+    height: 9rem;
+    width: 0.3rem;
+    background-color: white; 
+    transform-origin: 0 100%;
+    padding: 0;
+}
+footer{
+    margin-bottom: 0.5rem;
+    padding-top: 2rem;
+    text-align: center;
+    color: white;
+}
+.name{
+    display: block;
+    padding: 0.5rem;
+}
